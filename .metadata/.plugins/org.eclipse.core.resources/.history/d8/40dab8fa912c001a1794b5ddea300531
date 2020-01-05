@@ -1,0 +1,5 @@
+package com.jms.Rocket;
+
+public interface SpaceVehicles {
+	public String launch();
+}

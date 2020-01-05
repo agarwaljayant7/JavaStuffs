@@ -1,0 +1,19 @@
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+		//Load the Spring Container
+		
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("ApplicationContext.xml");
+		
+		//Get the beans
+		
+		//Call the methods
+		
+		
+		//close the resources
+
+	}
+
+}

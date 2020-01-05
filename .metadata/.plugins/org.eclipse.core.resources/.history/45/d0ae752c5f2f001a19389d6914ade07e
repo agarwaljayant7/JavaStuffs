@@ -1,0 +1,24 @@
+package com.sports.coach;
+
+public class TrackCoach implements Coach {
+
+	private FortuneService dailyFortune;
+	
+	@Override
+	public String getDailyWorkOuts() {
+		
+		return "Go out and run for 5k";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		return dailyFortune.getDailyFortune();
+	}
+
+	public void setDailyFortune(FortuneService dailyFortune) {
+		this.dailyFortune = dailyFortune;
+	}
+	
+	
+
+}

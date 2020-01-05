@@ -1,0 +1,11 @@
+package com.jms.Launcher;
+
+public class Rocket implements SpaceVehicles {
+
+	@Override
+	public String launch() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

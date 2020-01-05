@@ -1,0 +1,5 @@
+package com.bcci.coach;
+
+public class MyLoggerConfig {
+
+}

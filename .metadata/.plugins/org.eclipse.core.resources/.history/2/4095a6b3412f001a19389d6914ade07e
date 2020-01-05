@@ -1,0 +1,10 @@
+
+public class CricketCoach implements Coach {
+
+	@Override
+	public String getDailyWorkOuts() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

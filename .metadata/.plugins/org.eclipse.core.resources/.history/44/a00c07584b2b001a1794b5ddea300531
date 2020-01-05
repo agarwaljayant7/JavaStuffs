@@ -1,0 +1,16 @@
+package com.jms.coach;
+
+public class myApp {
+
+	public static void main(String[] args) {
+		
+		// Creating the object to the BaseballCoach class
+		Coach theCoach = new BaseballCoach();
+		
+		//Accessing the methods
+		
+		
+		System.out.println(theCoach.getDailyWorkout());
+	}
+
+}

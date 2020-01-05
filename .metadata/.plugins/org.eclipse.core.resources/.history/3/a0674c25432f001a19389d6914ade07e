@@ -1,0 +1,10 @@
+
+public class CricketCoach implements Coach {
+
+	@Override
+	public String getDailyWorkOuts() {
+		
+		return "Do the bowling for 30 minutes";
+	}
+
+}

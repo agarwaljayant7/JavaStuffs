@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hello World</title>
+</head>
+<body>
+<h1> Hello, there!</h1>
+
+<center>
+	<form action="/LoginController" method="post">
+	Enter the user name<input type = "text" name ="username"/><br>
+	Enter the password<input type = "password" name ="userpass"/><br>
+	<input type = "submit" value = " Login "/>
+</form>
+</center>
+
+</body>
+</html>

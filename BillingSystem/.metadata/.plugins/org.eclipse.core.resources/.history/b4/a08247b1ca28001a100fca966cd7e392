@@ -1,0 +1,40 @@
+<html>  
+<head>  
+<script type="text/javascript" src="Breakfast.js"></script>  
+</head>  
+<body>  
+<p>Ready to order</p>  
+<form>
+
+<table style="width:100%">
+  <tr>
+    <td><b><u>Breakfast</u></b></td>
+    <td><b><u>Lunch</u></b></td> 
+    <td><b><u>Snacks</u></b></td>
+    <td><b><u>Dinner</u></b></td>
+  </tr>
+  <tr>
+    <td>Parathe</td>
+    <td>Meals</td>
+    <td>Poha</td>
+    <td>Dal-Roti</td>
+  </tr>
+</table>
+
+
+<input type ="checkbox"/ Parathe> 
+<!-- <button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  var x = document.createElement("INPUT");
+  x.setAttribute("type", "checkbox");
+  document.body.appendChild(x);
+}
+</script>
+ -->
+  
+<input type="button" value="Breakfast" onclick="breakfast()"/>  
+</form>  
+</body>  
+</html>  

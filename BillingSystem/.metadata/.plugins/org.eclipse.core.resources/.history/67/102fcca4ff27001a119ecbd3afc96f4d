@@ -1,0 +1,28 @@
+<html>  
+<head>  
+<script type="text/javascript" src="Breakfast.js"></script>  
+</head>  
+<body>  
+<p>Ready to order</p>  
+<form>
+
+<table style="width:100%">
+  <tr>
+    <td>Breakfast</td>
+    <td>Lunch</td> 
+    <td>Snacks</td>
+    <td>Dinner</td>
+  </tr>
+  <tr>
+    <td>Parathe</td>
+    <td>Meals</td>
+    <td>Poha</td>
+    <td>Dal-Roti</td>
+  </tr>
+</table>
+
+  
+<input type="button" value="Breakfast" onclick="breakfast()"/>  
+</form>  
+</body>  
+</html>  

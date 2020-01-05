@@ -1,0 +1,10 @@
+
+public class FortuneService implements Fortune {
+
+	@Override
+	public String getDailyFortune() {
+		
+		return "You've a lucky day";
+	}
+
+}

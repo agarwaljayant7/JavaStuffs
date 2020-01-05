@@ -1,0 +1,11 @@
+package com.jms.Launcher;
+
+public class Force implements Energy {
+
+	@Override
+	public String getEnergy() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,6 @@
+package com.jms.coach;
+
+public interface HappyFortuneService {
+
+	public String getFortuneService();
+}

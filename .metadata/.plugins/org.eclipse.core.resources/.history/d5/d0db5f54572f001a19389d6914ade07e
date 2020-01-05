@@ -1,0 +1,17 @@
+package com.bcci.coach;
+
+public class FortuneService implements Fortune {
+
+	@Override
+	public String getDailyFortune() {
+		
+		return "You've a lucky day";
+	}
+	
+	public String getAdditionalFortune() {
+		return "Wish you Win the match";
+	}
+	
+	
+
+}

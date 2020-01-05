@@ -1,0 +1,9 @@
+package com.bcci.coach;
+
+
+
+public interface Fortune {
+	
+	public String getDailyFortune();
+	
+}

@@ -1,0 +1,13 @@
+package com.sports.coach;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class TrackApplication {
+
+	public static void main(String[] args) {
+		
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("beanScope-applicationContext.xml");
+
+	}
+
+}

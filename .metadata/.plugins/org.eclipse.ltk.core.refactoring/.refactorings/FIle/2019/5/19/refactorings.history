@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;StaticSynchronizedDemo&apos; to &apos;MyThread2&apos;&#x0A;- Original project: &apos;FIle&apos;&#x0A;- Original element: &apos;StaticSynchronizedDemo&apos;&#x0A;- Renamed element: &apos;MyThread2&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;StaticSynchronizedDemo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{StaticSynchronizedDemo.java[StaticSynchronizedDemo" matchStrategy="1" name="MyThread2" qualified="false" references="true" similarDeclarations="false" stamp="1557106869311" textual="false" version="1.0"/>
+</session>

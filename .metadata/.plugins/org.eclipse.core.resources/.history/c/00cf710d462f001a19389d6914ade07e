@@ -1,0 +1,28 @@
+package com.bcci.coach;
+
+public class CricketCoach implements Coach {
+	
+	private FortuneService dailyFortune;
+	
+	@Override
+	public String getDailyWorkOuts() {
+
+		return "Do the bowling for 30 minutes";
+	}
+
+	public CricketCoach() {
+		System.out.println("Inside the CricketCoach Constructor");
+	}
+
+	public String getDailyFortune() {
+		return dailyFortune.getDailyFortune();
+	}
+
+	public void setDailyFortune(FortuneService dailyFortune) {
+		this.dailyFortune = dailyFortune;
+	}
+
+	
+	
+	
+}

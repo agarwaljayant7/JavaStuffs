@@ -1,0 +1,28 @@
+package com.bcci.coach;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+		//Load the Spring Container through the context file.
+		
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("ApplicationContext.xml");
+		
+		//Get the beans from the container
+		
+		Coach coach = context.getBean("cricketCoach", Coach.class);
+		
+		//Call the methods
+		System.out.println(coach.getDailyWorkOuts());
+		System.out.println(coach.getDailyFortune());
+		System.out.println(coach.getEmailAddress());
+		System.out.println(coach.getEmailAddress());
+		System.out.println(coach.getCoachName());
+		
+		//close the resources
+		
+		context.close();
+	}
+
+}

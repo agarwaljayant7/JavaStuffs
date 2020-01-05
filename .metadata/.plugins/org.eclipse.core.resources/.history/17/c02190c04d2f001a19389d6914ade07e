@@ -1,0 +1,53 @@
+package com.bcci.coach;
+
+public class CricketCoach implements Coach {
+	
+	private FortuneService dailyFortune;
+	private String emailAddress;
+	private String coachName;
+	
+	@Override
+	public String getDailyWorkOuts() {
+
+		return "Do the bowling for 30 minutes";
+	}
+/*
+	public CricketCoach(FortuneService dailyFortune) {
+		//System.out.println("Inside the CricketCoach Constructor");
+		this.dailyFortune = dailyFortune;
+	}*/
+
+	public String getDailyFortune() {
+		return dailyFortune.getDailyFortune();
+	}
+	
+	public String getAdditionalFortune() {
+		return dailyFortune.getAdditionalFortune();
+	}
+	
+	public void setDailyFortune(FortuneService dailyFortune) {
+		//System.out.println("Inside the setter method");
+		this.dailyFortune = dailyFortune;
+	}
+
+	public String getEmailAddress() {
+		return emailAddress;
+	}
+
+	public void setEmailAddress(String emailAddress) {
+		this.emailAddress = emailAddress;
+	}
+
+	public String getCoachName() {
+		return coachName;
+	}
+
+	public void setCoachName(String coachName) {
+		this.coachName = coachName;
+	}
+
+	
+	
+	
+	
+}

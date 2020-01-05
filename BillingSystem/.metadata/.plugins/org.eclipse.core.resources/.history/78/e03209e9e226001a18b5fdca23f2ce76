@@ -1,0 +1,44 @@
+package com.jagganatha.login;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.jagganatha.menu.Breakfast;
+
+
+//@WebServlet(description = "Authenticates", urlPatterns = { "/LoginController" })
+//@WebServlet("/LoginController")
+
+public class LoginController extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	String uname, upass;
+	PrintWriter out; 
+  
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		/*String username = request.getParameter(username);
+		String password = request.getParameter(password);*/
+		
+		 response.setContentType("text/html");  
+		 out = response.getWriter();
+		 out.println("Hey there");
+		 
+		 //request.setAttribute("username", request.getParameter("username"));
+		 	
+		 uname = (String)request.getParameter("username");
+		 upass = (String) request.getParameter("userpass");
+		 /*uname = request.getParameter(username);
+		 upass = request.getParameter(userpass);*/
+		 
+		 out.println("Username = " + uname);
+		 out.println("Userpass = " + upass);
+		 out.close();
+		 
+		 response.sendRedirect("Menu.jsp");
+	}
+
+}

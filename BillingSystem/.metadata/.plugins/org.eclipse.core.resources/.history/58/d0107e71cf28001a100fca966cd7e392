@@ -1,0 +1,45 @@
+<html>  
+<head>  
+<script type="text/javascript" src="Breakfast.js"></script>  
+</head>  
+<body>  
+<p>Ready to order</p>  
+<form name = "SubmitOrder" action="OrderProcessing" method="POST">
+
+<table style="width:100%">
+  <tr>
+    <td><b><u>Breakfast</u></b></td>
+    <td><b><u>Lunch</u></b></td> 
+    <td><b><u>Snacks</u></b></td>
+    <td><b><u>Dinner</u></b></td>
+  </tr>
+  <tr>
+    <td><input type ="checkbox"/> Parathe</td>
+    <td><input type ="checkbox"/> Meals</td>
+    <td><input type ="checkbox"/> Poha</td>
+    <td><input type ="checkbox"/> Dal-Roti</td>
+  </tr>
+  <tr>
+    <td><input type ="checkbox"/> Roti-Bhujia</td>
+    <td><input type ="checkbox"/> Veg-combo</td>
+    <td><input type ="checkbox"/> Omlet</td>
+    <td><input type ="checkbox"/> Palak-Roti</td>
+  </tr>
+</table>
+
+<input type = "submit" value = " Submit Order"/>
+</form>
+<!-- <button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  var x = document.createElement("INPUT");
+  x.setAttribute("type", "checkbox");
+  document.body.appendChild(x);
+}
+</script>
+ -->
+  
+<!-- <input type="button" value="Breakfast" onclick="breakfast()"/>   --> 
+</body>  
+</html>  

@@ -1,0 +1,8 @@
+package com.bcci.coach;
+
+public interface Coach {
+
+	//public String coachName();
+	public String getDailyWorkOuts();
+	public String getDailyFortune();
+}

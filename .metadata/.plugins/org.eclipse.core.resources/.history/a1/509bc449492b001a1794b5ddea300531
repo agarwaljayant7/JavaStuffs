@@ -1,0 +1,11 @@
+package com.jms.coach;
+
+public class HappyFortuneService implements FortuneService{
+
+	@Override
+	public String getFortuneService() {
+		return "You've a lucky day!!";
+				
+	}
+	
+}

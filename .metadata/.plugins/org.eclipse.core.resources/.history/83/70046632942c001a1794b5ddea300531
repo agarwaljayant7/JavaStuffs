@@ -1,0 +1,17 @@
+package com.jms.Launcher;
+
+public class App {
+
+	public static void main(String[] args) {
+		/*Rocket rocket = new Rocket();
+		System.out.println("Hello");
+		System.out.println(rocket.launch());
+		
+		Force force = new Force();
+		System.out.println(force.getEnergy());*/
+		
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext();
+
+	}
+
+}

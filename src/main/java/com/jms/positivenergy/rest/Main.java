@@ -8,6 +8,6 @@ public class Main {
 
     @GetMapping("/getPositiveEnergy")
     public String getPositiveEnergy(){
-        return "here' you're full of positivy around you..";
+        return "here' you're full of positivity around you..";
     }
 }
